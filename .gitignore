@@ -133,8 +133,7 @@ dmypy.json
 
 # Data files (too large for git)
 data/raw/
-data/processed/
-*.csv
+
 *.json
 *.parquet
 *.xlsx
