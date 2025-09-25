@@ -8,7 +8,7 @@ def collect_economic_data():
     start_date = '2024-01-01'
     end_date = '2025-07-1'
     
-    fuel_prices = pdr.get_data_fred('DJAAFUELJAN', start_date, end_date)
+    fuel_prices = pdr.get_data_fred('DCOILWTICO', start_date, end_date)
     consumer_conf = pdr.get_data_fred('UMCSENT', start_date, end_date)
     gdp = pdr.get_data_fred('GDP', start_date, end_date)
     
