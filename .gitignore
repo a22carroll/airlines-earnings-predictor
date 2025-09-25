@@ -149,7 +149,7 @@ models/*.pth
 # Results and plots
 results/plots/
 results/reports/
-*.png
+
 *.jpg
 *.pdf
 *.html

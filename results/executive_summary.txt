@@ -1,0 +1,49 @@
+
+AIRLINE EARNINGS PREDICTION PROJECT - EXECUTIVE SUMMARY
+=====================================================
+Generated: September 25, 2025
+
+MODEL PERFORMANCE:
+- Best Model: Linear Regression
+- Accuracy: 95.8% (R² Score)
+- Average Error: $163M per prediction
+- Data Sources: TSA passenger data, airline operations, economic indicators
+
+Q2 2025 REVENUE PREDICTIONS:
+- Total Industry Revenue: $52,984M
+- Average Revenue Change: +13.9% vs latest quarter
+
+AIRLINE-SPECIFIC PREDICTIONS:
+- AAL: $14,693M (+17.1% change)
+- DAL: $16,047M (+14.3% change)
+- LUV: $7,022M (+9.2% change)
+- UAL: $15,222M (+15.2% change)
+
+KEY INSIGHTS:
+- Operating expenses and passenger revenue are strongest predictors
+- TSA passenger data provides early indicator of airline performance  
+- Model successfully captures seasonal and operational variations
+- Economic factors (oil prices, consumer confidence) provide additional context
+
+DATA SOURCES:
+- TSA checkpoint throughput data (alternative data advantage)
+- Airline quarterly financial reports (fundamental analysis)
+- Federal Reserve economic indicators (macro environment)
+- 6 quarters of data across 4 major airlines
+
+METHODOLOGY:
+- Time series split for realistic prediction testing
+- Feature engineering to align different data frequencies
+- Cross-validation to assess model stability
+- Focus on interpretable linear model for business insights
+
+LIMITATIONS:
+- Small dataset (24 observations) limits model complexity
+- Predictions assume current economic/operational trends continue
+- Model performance may vary with major industry disruptions
+
+RECOMMENDED USAGE:
+- Use as starting point for quarterly revenue forecasting
+- Combine with qualitative business judgment
+- Update model as new data becomes available
+- Monitor actual vs predicted performance for model refinement
